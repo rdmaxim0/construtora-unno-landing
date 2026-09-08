@@ -33,7 +33,7 @@ const projectsData = [
 
 const Projects = () => {
  return (
-    <section className="projects-section">
+    <section id="projetos" className="projects-section">
         <div className="container projects-container">
 
             {/* Lado  Esquerdo: Title e CTA */}

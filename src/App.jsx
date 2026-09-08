@@ -1,9 +1,10 @@
-import Header from './components/Header'
+import Header from './components/Header';
 import Hero from './components/Hero';
 import Metrics from './components/Metrics';
-import Projects from './components/Projects'
+import About from './components/About';
+import Projects from './components/Projects';
 import Services from './components/Services';
-import Process from './components/Process'
+import Process from './components/Process';
 import  Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -21,13 +22,16 @@ function App() {
       <main>
         <Hero /> 
         <Metrics />
+        <About />
         <Projects />
         <Services />
         <Process />
         <Contact />
-        <Footer />
+       
       </main>
-      {/* <Footer /> */}
+      <Footer />
+       
+     
       
     </>
   )

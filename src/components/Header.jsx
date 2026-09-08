@@ -25,7 +25,7 @@ const Header = () => {
                     <a href="#sobre" className="nav-link" onClick={() => setIsMenuOpen(false)}>Sobre</a>
                     <a href="#servicos" className="nav-link" onClick={() => setIsMenuOpen(false)}>Serviços</a>
                     <a href="#projetos" className="nav-link" onClick={() => setIsMenuOpen(false)}>Projetos</a>
-                    <a href="#contato" className="nav-link" onClick={() => setIsMenuOpen(false)}>Contatos</a>
+                    <a href="#contatos" className="nav-link" onClick={() => setIsMenuOpen(false)}>Contatos</a>
                 
                     {/* Botão de Orçamento Mobile */}
                     <a href="#contato" className="btn btn-primary mobile-cta" onClick={() => setIsMenuOpen(false)}>
