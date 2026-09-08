@@ -32,7 +32,7 @@ const Services = () => {
             Arquitetura, Construção Residencial, Construção Comercial, Interiores, Gestão de Projeto.
           </p>
           <a href="#projetos" className="btn btn-outline btn-services">
-            EXPLORE SERVIÇOS <ChevronRight size={18} strokeWidth={2} />
+            SAIBA MAIS <ChevronRight size={18} strokeWidth={2} />
           </a>
         </div>
 

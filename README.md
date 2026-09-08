@@ -1,16 +1,25 @@
-# React + Vite
+# Construtora Unno - Landing Page 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma landing page de alto padrão desenvolvida para a Construtora Unno, focada em converter visitantes em leads qualificados através de um design executivo, performance otimizada e integração direta com o WhatsApp.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Design em Zigue-Zague:** Fluxo de leitura otimizado e elegante.
+- **Dark/Light Mode Integrado:** Troca de tema dinâmica baseada em variáveis CSS.
+- **Formulário de Orçamento Inteligente:** Capta os dados do usuário e gera uma mensagem pré-formatada direto para o WhatsApp da construtora.
+- **Galeria de Projetos Dinâmica:** Visualização de projetos em destaque com modal interativo (pop-up).
+- **Smooth Scrolling:** Navegação fluida entre as seções através da Navbar e Footer.
+- **SEO Otimizado:** Semântica HTML5, meta tags configuradas e alta performance de carregamento.
 
-## React Compiler
+## 🛠️ Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://reactjs.org/) (com Hooks)
+- [Vite](https://vitejs.dev/) - Ferramenta de build ultrarrápida
+- CSS3 (Flexbox, CSS Grid, Variáveis Globais)
+- [Lucide React](https://lucide.dev/) - Biblioteca de ícones SVG limpos e modernos
 
-## Expanding the ESLint configuration
+## 📦 Como rodar este projeto localmente
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/rdmaxim0/construtora-unno-landing.git](https://github.com/rdmaxim0/construtora-unno-landing.git)

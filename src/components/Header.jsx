@@ -28,7 +28,7 @@ const Header = () => {
                     <a href="#contatos" className="nav-link" onClick={() => setIsMenuOpen(false)}>Contatos</a>
                 
                     {/* Botão de Orçamento Mobile */}
-                    <a href="#contato" className="btn btn-primary mobile-cta" onClick={() => setIsMenuOpen(false)}>
+                    <a href="https://wa.me/21995488908" target="_blank" className="btn btn-primary mobile-cta" onClick={() => setIsMenuOpen(false)}>
                         Solicitar Orçamento
                     </a>
                 </nav>
@@ -42,7 +42,7 @@ const Header = () => {
                         </span>
                     </button>
 
-                    <a href="#contato" className="btn btn-primary desktop-only">
+                    <a href="https://wa.me/21995488908" target="_blank" className="btn btn-primary desktop-only">
                         Solicitar Orçamento
                     </a>
 

@@ -17,7 +17,7 @@ const Process = () => {
         <div className="process-header">
           <span className="sub-title">NOSSO PROCESSO</span>
           <h2>Uma Jornada Contínua da Visão à Realidade</h2>
-          <a href="#contato" className="btn btn-outline btn-process">
+          <a href="#contatos" className="btn btn-outline btn-process">
             COMO TRABALHAMOS <ChevronRight size={18} strokeWidth={2} />
           </a>
         </div>
