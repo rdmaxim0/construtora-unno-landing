@@ -17,7 +17,7 @@ const Contact = () => {
     
     const handleSubmit = (e) => {
         e.preventDefault();
-        const waNumber = "5521983873080";
+        const waNumber = "5521972326300";
         const text = `Olá, Unno Engenharia! Meu nome é *${formData.name}*.\n\nGostaria de solicitar um orçamento para o serviço de *${formData.service}*.\n\n*Detalhes do Projeto:*\n${formData.message}\n\n*Meu Telefone:* ${formData.phone}`;
         const encodedText = encodeURIComponent(text);
         const url = `https://wa.me/${waNumber}?text=${encodedText}`;
@@ -76,14 +76,14 @@ const Contact = () => {
               <div className="contact-icon"><MapPin size={24} strokeWidth={1.5} /></div>
               <div>
                 <h4>Nosso Escritório</h4>
-                <p>Av. Visconde de Albuquerque, Leblon, RJ</p>
+                <p>R. Rio D'una, 267 - Guaratiba, RJ</p>
               </div>
             </div>
             <div className="contact-item">
               <div className="contact-icon"><Phone size={24} strokeWidth={1.5} /></div>
               <div>
-                <h4>Telefone Direto</h4>
-                <p>+55 (21) 90000-0000</p>
+                <h4>Whatsapp</h4>
+                <p>+55 (21) 97232-6300</p>
               </div>
             </div>
             <div className="contact-item">

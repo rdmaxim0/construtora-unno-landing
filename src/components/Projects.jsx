@@ -1,44 +1,49 @@
 import { useState, useEffect } from 'react';
 import { ArrowUpRight, X, Maximize2 } from 'lucide-react';
 import luxuryHouse from '../assets/luxuryHouse.jpg'; 
+import paelImg from '../assets/PaelRJ.jpeg'
+import mizuImg from '../assets/MizuRJ.jpeg'
+import crapiImg from '../assets/CrapiCesarao.jpeg'
+import rioBonitoImg from '../assets/RioBonitoRJ.jpeg' 
+
 
 // Dados dinâmicos dos projetos
 const projectsData = [
   {
     id: 1,
-    title: 'Residência Alphaville',
-    category: 'Construção Residencial',
-    image: luxuryHouse,
-    description: 'Um projeto de alto padrão focado em integração de ambientes e iluminação natural. Conta com 4 suítes, área de lazer completa e automação residencial.',
-    area: '450m²',
-    location: 'São Paulo, SP'
+    title: 'Instalação de CFTV e Adequação Civil',
+    category: 'Segurança e Civil',
+    image: paelImg,
+    description: 'Fornecimento de mão de obra especializada para instalação completa de infraestrutura de monitoramento, integrada à readequação do ambiente com montagem de estruturas em drywall e acabamento fino em pintura.',
+    area: 'Sob consulta', 
+    location: 'Rio de Janeiro, RJ'
   },
   {
     id: 2,
-    title: 'Edifício Corporate Alpha',
-    category: 'Construção Comercial',
-    image: luxuryHouse,
-    description: 'Sede corporativa projetada para máxima eficiência energética e conforto acústico, utilizando materiais nobres e fachada em pele de vidro.',
-    area: '1200m²',
+    title: 'Revitalização e Manutenção Industrial',
+    category: 'Manutenção Industrial',
+    image: mizuImg,
+    description: 'Execução técnica de trabalho em altura para revitalização de pintura de silos industriais e reparo corretivo em telhas galvanizadas, garantindo a integridade, proteção e segurança da estrutura.',
+    area: 'Sob consulta',
     location: 'Rio de Janeiro, RJ'
   },
   {
     id: 3,
-    title: 'Cobertura Leblon',
-    category: 'Design de Interiores',
-    image: luxuryHouse,
-    description: 'Reforma completa de cobertura duplex, com foco em design minimalista, marcenaria sob medida e paleta de cores atemporal.',
-    area: '280m²',
+    title: 'Construção de Piscina Coberta',
+    category: 'Construção Civil',
+    image: crapiImg,
+    description: 'Empreitada de mão de obra civil completa envolvendo estruturação do terreno, escavação e alvenaria dedicadas à construção de uma piscina coberta, seguindo rigorosos padrões de execução e segurança.',
+    area: 'Sob consulta',
     location: 'Rio de Janeiro, RJ'
   },
   {
     id: 4,
-    title: 'Casa de Campo Fazenda Boa Vista',
-    category: 'Arquitetura e Construção',
-    image: luxuryHouse,
-    description: 'Refúgio de fim de semana projetado com estrutura de madeira aparente e pedras naturais, criando um diálogo perfeito com a natureza ao redor.',
-    area: '600m²',
-    location: 'Porto Feliz, SP'
+    title: 'Infraestrutura Elétrica Cenográfica',
+    category: 'Elétrica e Estrutura',
+    image: rioBonitoImg,
+    description: 'Mobilização de equipe técnica para montagem, passagem de cabeamento elétrico seguro e posterior desmontagem de toda a iluminação e estruturas cenográficas temáticas de Natal em área pública.',
+    area: 'Sob consulta',
+    location: 'Rio Bonito, RJ'
   }
 ];
 
