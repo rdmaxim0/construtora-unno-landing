@@ -129,7 +129,7 @@ const Projects = () => {
                   </div>
                 </div>
 
-                <a href="#contatos" className="btn btn-primary modal-btn" onClick={() => setSelectedProject(null)}>
+                <a href="#form-contatos" className="btn btn-primary modal-btn" onClick={() => setSelectedProject(null)}>
                   SOLICITAR ORÇAMENTO PARECIDO
                 </a>
               </div>
